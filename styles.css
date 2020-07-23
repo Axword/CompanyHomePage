@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lexend Mega Regular'), local('LexendMega-Regular'), url(https://fonts.gstatic.com/s/lexendmega/v1/qFdA35aBi5JtHD41zSTFEs7N4ho.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  html{
+      font-family:"Lexend Mega", sans-serif;
+      background-color: rgba(161, 177, 177, 0.514);
+    
+  }
+.title{
+    text-align:center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-around;
+    border: 2px solid rgb(43, 18, 18);
+    margin-bottom:0px;
+    font-style: italic;
+
+    
+    text-decoration: underline;
+}
+.head{
+    display:flex;
+    background-image: url(denys-nevozhai-QPqD-w28ADc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top:0px ;
+    align-items:center;
+    justify-content: center;
+    width:auto;
+}
+.extra{
+    display:flex;
+    background-color:white;
+    text-align: center;
+    width:auto;
+    padding:0px 50px;
+    border: 5px solid rgb(43, 18, 18);
+
+    flex-direction: column;
+}
+
+.team-container{
+    display:flex;
+    background-image: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom:100px;
+    
+}
+.team{
+   max-height:350px;
+    max-width:300px;
+    width:auto;
+    text-align: center;
+    height:400px;
+    padding-bottom:140px;
+    padding-top:20px;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+ color: inherit; 
+} 
+h2{
+    font-size:40px;
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    font-size:26px;
+    text-align: center;
+}
+.portfolio{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: stretch;
+}
+.company{
+    max-width: 500px;
+    
+    padding:10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .navigation{
+        font-size: smaller;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size:23px
+    }
+}
+#kolo{
+    max-width: 500px;
+}
+.portfolio-before{
+    text-align: center;
+    margin-bottom:60px;
+}
+h5{
+  color:black;
+    font-size:16px;
+
+}
+h4{
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
